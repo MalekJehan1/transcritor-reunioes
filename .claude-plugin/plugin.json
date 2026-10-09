@@ -1,0 +1,18 @@
+{
+  "name": "transcritor",
+  "displayName": "Transcritor de reuniões",
+  "version": "0.1.0",
+  "description": "Transcreve gravações de reuniões localmente (faster-whisper, sem enviar áudio para fora) e gera um resumo estruturado — por pessoa, decisões, pendências e riscos — adaptado ao vocabulário da sua empresa. Publicação em Confluence, Notion etc. é opcional e usa os conectores que você já tiver.",
+  "author": {
+    "name": "Rodrigo Barbosa"
+  },
+  "license": "MIT",
+  "keywords": [
+    "transcricao",
+    "reuniao",
+    "daily",
+    "ata",
+    "whisper",
+    "resumo"
+  ]
+}

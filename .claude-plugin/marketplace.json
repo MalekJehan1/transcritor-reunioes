@@ -1,0 +1,16 @@
+{
+  "name": "transcritor-reunioes",
+  "owner": {
+    "name": "Rodrigo Barbosa"
+  },
+  "description": "Transcrição local de reuniões com resumo estruturado",
+  "plugins": [
+    {
+      "name": "transcritor",
+      "description": "Transcreve reuniões localmente e gera resumo por pessoa, decisões, pendências e riscos, com o vocabulário da sua empresa.",
+      "category": "productivity",
+      "tags": ["transcricao", "reuniao", "daily", "ata", "whisper"],
+      "source": "./"
+    }
+  ]
+}
