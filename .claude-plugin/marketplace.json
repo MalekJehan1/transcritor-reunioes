@@ -9,8 +9,15 @@
       "name": "transcritor",
       "description": "Transcreve reuniões localmente e gera resumo por pessoa, decisões, pendências e riscos, com o vocabulário da sua empresa.",
       "category": "productivity",
-      "tags": ["transcricao", "reuniao", "daily", "ata", "whisper"],
-      "source": "./"
+      "tags": [
+        "transcricao",
+        "reuniao",
+        "daily",
+        "ata",
+        "whisper"
+      ],
+      "source": "./",
+      "homepage": "https://github.com/Rodrigobarb/transcritor-reunioes"
     }
   ]
 }

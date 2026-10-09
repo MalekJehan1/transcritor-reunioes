@@ -14,5 +14,7 @@
     "ata",
     "whisper",
     "resumo"
-  ]
+  ],
+  "homepage": "https://github.com/Rodrigobarb/transcritor-reunioes",
+  "repository": "https://github.com/Rodrigobarb/transcritor-reunioes"
 }

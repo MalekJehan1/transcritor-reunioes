@@ -11,7 +11,7 @@ ele pode publicar o resumo e cruzar com os cards. Se não tiver, entrega um `.md
 ## Instalar
 
 ```bash
-claude plugin marketplace add <url-ou-caminho-deste-repositório>
+claude plugin marketplace add Rodrigobarb/transcritor-reunioes
 ```
 
 ```bash
