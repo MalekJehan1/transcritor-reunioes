@@ -39,7 +39,8 @@ Mande o áudio ou o vídeo e peça o resumo ("resume a daily de hoje", "ata dess
 
 ## Requisitos
 
-- Linux ou macOS (no Windows, via WSL), com `python3` 3.9+ e `curl`.
+- Linux, macOS ou Windows, com Python 3.9+ (e `curl` no Linux/macOS). No Windows os scripts
+  rodam no Git Bash, que é o shell do Claude Code ali, e aceitam `python`, `python3` ou `py`.
 - ~2 GB livres: o ambiente Python fica em `~/.cache/transcritor/venv` e o modelo no cache do
   Hugging Face. A primeira transcrição baixa tudo isso; as seguintes começam na hora.
 

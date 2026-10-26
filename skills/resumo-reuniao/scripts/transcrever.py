@@ -68,7 +68,18 @@ def main():
     p.add_argument("--idioma", default=None)
     p.add_argument("--tipo", default=None, help="daily, retro, planning, cliente...")
     p.add_argument("--threads", type=int, default=max(1, (os.cpu_count() or 4) - 2))
+    p.add_argument("--log", default=None,
+                   help="grava stdout/stderr neste arquivo (usado no Windows, com pythonw)")
     args = p.parse_args()
+
+    if args.log:
+        log = open(args.log, "a", encoding="utf-8", buffering=1)
+        sys.stdout = sys.stderr = log
+    else:
+        # O console do Windows usa cp1252 por padrao e quebraria em acentos.
+        for s in (sys.stdout, sys.stderr):
+            if hasattr(s, "reconfigure"):
+                s.reconfigure(encoding="utf-8")
 
     if not os.path.exists(args.audio):
         sys.exit(f"arquivo nao encontrado: {args.audio}")
